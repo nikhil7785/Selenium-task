@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Releval4.Task3">
+        <methods>
+          <include name="task1"/>
+          <include name="closeurl"/>
+          <include name="launchurl"/>
+        </methods>
+      </class> <!-- Releval4.Task3 -->
+      <class name="Releval3.Task2">
+        <methods>
+          <include name="closeurl"/>
+          <include name="task"/>
+          <include name="launchurl"/>
+        </methods>
+      </class> <!-- Releval3.Task2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
